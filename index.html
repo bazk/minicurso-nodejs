@@ -15,31 +15,7 @@
 
 
     <body>
-        <div class="container" ng-controller="MainCtrl">
-            <div id="prev-next row">
-                <div class="col-md-2">
-                    <button type="button" class="btn btn-default btn-lg ng-hide" ng-show="prev !== null" ng-click="goPrev()">Anterior</button>
-                </div>
-
-                <div class="col-md-8">
-                    <h3 class="text-center ng-hide" style="margin-top: 15px;" ng-show="partNo !== null">{{partNo}}</h3>
-                </div>
-
-                <div class="col-md-2 text-right">
-                    <button type="button" class="btn btn-success btn-lg ng-hide" ng-show="next !== null" ng-click="goNext()">Próximo</button>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-12">
-                    <hr/>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-12" ng-view></div>
-            </div>
-        </div>
+        <div class="container" ng-view></div>
 
         <!-- // <script src="bower_components/jquery/dist/jquery.js"></script> -->
         <script src="bower_components/angular/angular.js"></script>
