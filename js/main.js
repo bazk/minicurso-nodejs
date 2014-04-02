@@ -11,7 +11,8 @@ angular.module('minicurso', ['ngRoute', 'hljs'])
     .provider('Snippets', function () {
         var snippets = [
             'snippets/node-install.html',
-            'snippets/node-install-prebuilt.html'
+            'snippets/node-install-prebuilt.html',
+            'snippets/async.html'
         ];
 
         this.$get = function () {
