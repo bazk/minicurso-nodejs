@@ -1,0 +1,26 @@
+{
+  "name": "minicurso-nodejs",
+  "version": "0.0.1",
+  "license": "GPLv3",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "authors": [
+    "Eduardo Luis Buratti"
+  ],
+  "homepage": "http://bazk.me",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.0",
+    "bootstrap": "~3.1.1",
+    "angular": "~1.2.15",
+    "angular-animate": "~1.2.15",
+    "angular-route": "~1.2.15",
+    "angular-bootstrap": "~0.10.0",
+    "angular-highlightjs": "~0.2.5"
+  }
+}
