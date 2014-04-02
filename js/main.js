@@ -12,7 +12,13 @@ angular.module('minicurso', ['ngRoute', 'hljs'])
         var snippets = [
             'snippets/node-install.html',
             'snippets/node-install-prebuilt.html',
-            'snippets/async.html'
+            'snippets/node-install-path.html',
+            'snippets/hello-world.html',
+            'snippets/timeout.html',
+            'snippets/timeout-queuing.html',
+            'snippets/async.html',
+            'snippets/parallel-async.html',
+            'snippets/sequential-async.html'
         ];
 
         this.$get = function () {
