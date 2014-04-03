@@ -1,4 +1,3 @@
-<div hljs language="javascript">
 // demonstração timeout queuing
 
 var timeBegin = new Date().getTime();
@@ -15,4 +14,3 @@ while (i != 100000000) {
 }
 
 console.log('resultado: ' + i);
-</div>

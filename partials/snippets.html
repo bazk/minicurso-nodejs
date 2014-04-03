@@ -19,5 +19,10 @@
 </div>
 
 <div class="row">
-    <div class="col-md-12" ng-include="curSnippet"></div>
+    <div class="col-md-12">
+        <div ng-repeat="subSnip in curSnippet">
+            <div hljs language="{{ subSnip.language }}" include="subSnip.source"></div>
+            <hr />
+        </div>
+    </div>
 </div>

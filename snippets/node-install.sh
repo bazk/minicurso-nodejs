@@ -1,4 +1,3 @@
-<div hljs language="bash">
 # instalação do node e npm
 
 mkdir -p ~/nodejs/src
@@ -8,4 +7,3 @@ tar xzf node-latest.tar.gz
 cd node-v*
 ./configure --prefix=~/nodejs
 make install
-</div>
